@@ -1,0 +1,44 @@
+﻿Initial prototype
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .classpath
+#	new file:   .project
+#	new file:   AndroidManifest.xml
+#	new file:   README.md
+#	new file:   libs/android-support-v4.jar
+#	new file:   proguard-project.txt
+#	new file:   project.properties
+#	new file:   res/drawable-hdpi/back.png
+#	new file:   res/drawable-hdpi/flip_camera.png
+#	new file:   res/drawable-hdpi/logo.png
+#	new file:   res/drawable-hdpi/settings.png
+#	new file:   res/drawable-mdpi/back.png
+#	new file:   res/drawable-mdpi/flip_camera.png
+#	new file:   res/drawable-mdpi/logo.png
+#	new file:   res/drawable-mdpi/settings.png
+#	new file:   res/drawable-xhdpi/back.png
+#	new file:   res/drawable-xhdpi/flip_camera.png
+#	new file:   res/drawable-xhdpi/logo.png
+#	new file:   res/drawable-xhdpi/settings.png
+#	new file:   res/layout/activity_vinteract_full.xml
+#	new file:   res/layout/homescreen.xml
+#	new file:   res/layout/simplerow.xml
+#	new file:   res/menu/activity_lapsecam.xml
+#	new file:   res/values/colors.xml
+#	new file:   res/values/strings.xml
+#	new file:   res/values/styles.xml
+#	new file:   src/mr/vinteract/activity/HomescreenActivity.java
+#	new file:   src/mr/vinteract/activity/VinteractDualScreenActivity.java
+#	new file:   src/mr/vinteract/utils/VinteractApplication.java
+#	new file:   src/mr/vinteract/utils/VinteractVideoPreview.java
+#	new file:   src/mr/vinteract/utils/VinteractVideoView.java
+#
+
