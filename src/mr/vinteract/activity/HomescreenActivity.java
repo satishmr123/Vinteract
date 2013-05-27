@@ -3,6 +3,7 @@
 package mr.vinteract.activity;
 
 import mr.vinteract.R;
+import mr.vinteract.utils.ImageUtils;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,8 +26,7 @@ public class HomescreenActivity extends Activity {
 		interact_Button.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent VintractIntent = new Intent(HomescreenActivity.this, VinteractDualScreenActivity.class);
-				startActivity(VintractIntent);
+				clickoperation();
 			}
 		});
 		
@@ -34,10 +34,21 @@ public class HomescreenActivity extends Activity {
 		logoImage.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent VintractIntent = new Intent(HomescreenActivity.this, VinteractDualScreenActivity.class);
-				startActivity(VintractIntent);
+				clickoperation();
 			}
 		});
+	}
+	
+	void clickoperation ()
+	{
+		
+		Intent VintractIntent = new Intent(HomescreenActivity.this, VinteractDualScreenActivity.class);
+		startActivity(VintractIntent);
+		
+//		ImageUtils.BitmaptoJpeg("test_1080p");
+//		ImageUtils.BitmaptoJpeg("test_720p");
+//		ImageUtils.BitmaptoJpeg("test_VGA");
+		
 	}
 	
 	@Override
